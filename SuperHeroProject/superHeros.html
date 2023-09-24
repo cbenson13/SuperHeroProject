@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="superHeros.css">
+  <title>Avengers Superheroes</title>
+  <script src="SuperHero.js"></script>
+</head>
+<body >
+  <h1>Avengers Superheroes</h1>
+  <div id="superheroes"></div>
+  <script>
+    // Get the reference to the div element where the output will be displayed
+    const superheroesDiv = document.getElementById("superheroes");
+    
+    // Call the functions from the JavaScript file and update the HTML content
+    displaySuperheroes(superheroesDiv);
+    displaySuperheroesWithSuperStrength(superheroesDiv);
+    displaySuperheroesAboveAge50(superheroesDiv);
+  </script>
+</body>
+</html>

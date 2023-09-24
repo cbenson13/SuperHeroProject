@@ -1,0 +1,30 @@
+:root {
+  --marvel-red: #db202c;
+  --marvel-gold: #fed100;
+  --marvel-blue: #1f8ad6;
+  --marvel-black: #000;
+  --marvel-white: #fff;
+}
+
+body {
+  background-color: var(--marvel-black);
+  color: var(--marvel-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--marvel-red);
+}
+
+a {
+  color: var(--marvel-blue);
+}
+
+button {
+  background-color: var(--marvel-red);
+  color: var(--marvel-white);
+}
+
+.button-gold {
+  background-color: var(--marvel-gold);
+  color: var(--marvel-black);
+}
